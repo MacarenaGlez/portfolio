@@ -282,8 +282,6 @@ header {
 /* My Services */
 .my-services {
   background-color: var(--clr-dark);
-  background-image: url();
-  background-size: cover;
   color: var(--clr-light);
   text-align: center;
 }
@@ -376,8 +374,10 @@ header {
 }
 
 .portfolio__item {
-  background: var(--clr-accent);
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
 }
 
 .portfolio__img {
@@ -443,10 +443,12 @@ header {
   padding: 0 2em 2em;
   max-width: 1000px;
   margin: 0 auto;
+  text-align: -webkit-center;
 }
 
 .portfolio-item-individual p {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+  text-align: justify;
 }
