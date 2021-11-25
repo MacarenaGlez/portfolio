@@ -76,7 +76,6 @@ strong {
 }
 
 /* Typography */
-
 h1,
 h2,
 h3 {
@@ -139,7 +138,6 @@ header {
 }
 
 /* Hamburguer menu */
-
 .nav {
   position: fixed;
   background: var(--clr-dark);
