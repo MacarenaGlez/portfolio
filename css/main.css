@@ -144,7 +144,8 @@ header {
   color: var(--clr-light);
   top: 0;
   bottom: 0;
-  left: 0;
+  /*left: 0;*/
+  width: 300px;
   right: 0;
   z-index: 100;
 
@@ -179,7 +180,7 @@ header {
   background: transparent;
   border: 0;
   cursor: pointer;
-  position: absolute;
+  position: fixed;
   right: 1em;
   top: 1em;
   z-index: 1000;
@@ -258,7 +259,7 @@ header {
     grid-template-areas:
       "img title"
       "img subtitle";
-    grid-template-columns: min-content max-content;
+    /*grid-template-columns: min-content max-content;*/
   }
   .intro__img {
     grid-area: img;
