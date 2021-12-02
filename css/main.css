@@ -328,10 +328,6 @@ header {
   margin: 0 auto;
 }
 
-.service ul {
-  list-style: none;
-}
-
 @media (min-width: 800px) {
   .services {
     display: flex;
