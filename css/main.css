@@ -406,6 +406,11 @@ header {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
+.portfolio__body {
+  display: flex;
+  flex-direction: column;
+}
+
 .portfolio__item {
   overflow: hidden;
   display: flex;
